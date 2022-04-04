@@ -31,8 +31,8 @@ module.exports = {
     extensions: ['*', '.js', '.jsx'],
   },
   output: {
-    path: `${__dirname}/public/compiled`,
-    publicPath: '/public/',
+    path: `${__dirname}/docs/compiled`,
+    publicPath: '/docs/',
     filename: '[name].bundle.js',
   } 
 };
