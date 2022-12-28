@@ -160,6 +160,9 @@ nav#guidesbar ul.nav-bottom li {
 nav#titlebar button#openguidesbtn:hover, nav#guidesbar button#closeguidesbtn:hover {
     background-color: rgb(0 0 0 / 5%);
 }
+nav#titlebar button#openguidesbtn:active, nav#guidesbar button#closeguidesbtn:active {
+    background-color: rgb(0 0 0 / 15%);
+}
 #content a:hover {
     color: #aa8929;
 }
