@@ -1,4 +1,5 @@
 node_modules/
+extracted/
 .DS_Store
 *.log
 *.pw
