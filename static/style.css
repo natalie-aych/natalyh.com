@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,h6 {
     user-select: none;
 }
 .bg-throne {
-    background-image: url('throne.png');
+    background-image: url('tthrone.webp');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -106,6 +106,35 @@ nav#titlebar button#openguidesbtn {
 nav#guidesbar button#closeguidesbtn {
     background-image: url('x.svg');
 }
+#banner {
+    width: 100%;
+    aspect-ratio: 128 / 49;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(0 0 0 / 75%);
+    border-radius: 0.25em;
+}
+#banner.banner-lightning {
+    background-image: url('banner-lightning.webp');
+}
+#banner.banner-madness {
+    background-image: url('banner-madness.webp');
+}
+#banner.banner-corruption {
+    background-image: url('banner-corruption.webp');
+}
+#banner h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
 #content {
     /* #f7f2e1 / 80% */
     background-color: rgb(247 242 225 / 80%);
@@ -143,33 +172,61 @@ nav#guidesbar button#closeguidesbtn {
 #content a:active {
     color: #987a23;
 }
-
+#content hr {
+    clear: both;
+}
+#content .caption {
+    font-size: 0.8rem;
+    margin: 0;
+    text-align: center;
+    color: #575757;
+}
+#content .vert-margin {
+    margin: 1rem 0;
+}
+#content img {
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgb(0 0 0 / 75%);
+}
+@media screen and (max-width: 599px) {
+    #content .inline-left, #content .inline-right {
+        text-align: center;
+    }
+}
 @media screen and (min-width: 600px) {
-#content {
-    padding: 2rem 8rem;
-}
-nav#titlebar {
-    padding: 0 3rem;
-}
-.nav-top {
-    margin: 0.5rem 3rem;
-}
-nav#guidesbar ul.nav-bottom li {
-    padding: 0.5rem 3rem;
-}
-.nav-bottom li:hover {
-    background-color: rgb(0 0 0 / 15%);
-}
-nav#titlebar button#openguidesbtn:hover, nav#guidesbar button#closeguidesbtn:hover {
-    background-color: rgb(0 0 0 / 5%);
-}
-nav#titlebar button#openguidesbtn:active, nav#guidesbar button#closeguidesbtn:active {
-    background-color: rgb(0 0 0 / 15%);
-}
-#content a:hover {
-    color: #aa8929;
-}
-#content a:active {
-    color: #987a23;
-}
+    #content {
+        padding: 2rem 8rem;
+    }
+    nav#titlebar {
+        padding: 0 3rem;
+    }
+    .nav-top {
+        margin: 0.5rem 3rem;
+    }
+    nav#guidesbar ul.nav-bottom li {
+        padding: 0.5rem 3rem;
+    }
+    .nav-bottom li:hover {
+        background-color: rgb(0 0 0 / 15%);
+    }
+    nav#titlebar button#openguidesbtn:hover, nav#guidesbar button#closeguidesbtn:hover {
+        background-color: rgb(0 0 0 / 5%);
+    }
+    nav#titlebar button#openguidesbtn:active, nav#guidesbar button#closeguidesbtn:active {
+        background-color: rgb(0 0 0 / 15%);
+    }
+    #content a:hover {
+        color: #aa8929;
+    }
+    #content a:active {
+        color: #987a23;
+    }
+    #content .inline-left {
+        margin-right: 1rem;
+        float: left;
+    }
+    #content .inline-right {
+        margin-left: 1rem;
+        float: right;
+    }
 }
