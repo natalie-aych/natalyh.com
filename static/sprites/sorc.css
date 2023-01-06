@@ -7,6 +7,9 @@
 .sprite-cloud-mind {
     background-image: url('cloud-mind.png');
 }
+.sprite-consuming-darkness {
+    background-image: url('consuming-darkness.png');
+}
 .sprite-crushing-darkness {
     background-image: url('crushing-darkness.png');
 }
@@ -16,11 +19,23 @@
 .sprite-electrocute {
     background-image: url('electrocute.png');
 }
+.sprite-expunge {
+    background-image: url('expunge.png');
+}
+.sprite-extrication {
+    background-image: url('extrication.png');
+}
+.sprite-force-barrier {
+    background-image: url('force-barrier.png');
+}
 .sprite-force-lightning {
     background-image: url('force-lightning.png');
 }
 .sprite-force-speed {
     background-image: url('force-speed.png');
+}
+.sprite-force-storm {
+    background-image: url('force-storm.png');
 }
 .sprite-halted-offensive {
     background-image: url('halted-offensive.png');
@@ -31,17 +46,38 @@
 .sprite-lightning-flash {
     background-image: url('lightning-flash.png');
 }
+.sprite-lightning-strike {
+    background-image: url('lightning-strike.png');
+}
 .sprite-overload {
     background-image: url('overload.png');
 }
 .sprite-phase-walk {
     background-image: url('phase-walk.png');
 }
+.sprite-polarity-shift {
+    background-image: url('polarity-shift.png');
+}
+.sprite-recklessness {
+    background-image: url('recklessness.png');
+}
+.sprite-resurgence {
+    background-image: url('resurgence.png');
+}
+.sprite-seethe {
+    background-image: url('seethe.png');
+}
 .sprite-shock {
     background-image: url('shock.png');
 }
+.sprite-static-barrier {
+    background-image: url('static-barrier.png');
+}
 .sprite-thundering-blast {
     background-image: url('thundering-blast.png');
+}
+.sprite-unbreakable-will {
+    background-image: url('unbreakable-will.png');
 }
 .sprite-unnatural-preservation {
     background-image: url('unnatural-preservation.png');
