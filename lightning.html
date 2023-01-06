@@ -22,6 +22,7 @@
         <title>SWTOR 7.2 Lightning PvP Guide / Natalyh&apos;s SWTOR Guides</title>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
         <link rel="stylesheet" type="text/css" href="static/style.css" />
+        <link rel="stylesheet" type="text/css" href="static/sprites/sorc.css" />
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="static/dynamics.js"></script>
     </head>
@@ -33,9 +34,298 @@
             <header id="banner" class="banner-lightning">
                 <h1>SWTOR 7.2 Lightning PvP Guide</h1>
             </header>
-            <section>
-                <h2>Section Title</h2>
-                <p>I do not have these so-called "ideas".</p>
+            <section id="playstyle">
+                <h2>The Lightning Playstyle</h2>
+                <p>Before getting started with lightning you should know this: if
+                    you&apos;ve heard things about the spec being strong or
+                    overpowered, these are relics from 6.0 when it was indeed quite
+                    strong. Lightning was traditionally a jack-of-all-trades kind of
+                    spec: decent damage, decent survivability, decent control of enemy
+                    players, decent AOE potential, et cetera; but not the best in any
+                    of these categories. However, with the release of 7.0 it faces a
+                    glaring survivability problem, as well as doing comparatively
+                    much worse damage than in previous patches, so we will have to
+                    make sacrifices in all secondary areas to compensate for these
+                    newfound weaknesses. If you want to feel like Emperor Palpatine
+                    and steamroll people effortlessly, respec to
+                    <a href="/madness.html">madness</a> immediately
+                    and don&apos;t bother to continue reading&mdash;this spec does not
+                    have what you are looking for. That said, if you prefer a more
+                    tactical, conservative playstyle involving outplaying defensive
+                    cooldowns, choosing your opportunity windows, and reducing your
+                    damage taken by way of positioning, or you just enjoy the brutal
+                    sounds of firing off a different kind of lightning bolt with every
+                    GCD, this spec does still have something to offer, and I will show
+                    you how to force it into viability.</p>
+            </section>
+            <hr />
+            <section id="builds">
+                <h2>Viable Lightning Builds</h2>
+                <p>There are essentially only two ways to build lightning without
+                    becoming worm food every time a marauder so much as looks at you,
+                    which we&apos;ll take a look at in a second. Both will use the
+                    same gear and legendary implants, though with different tacticals.</p>
+                <div id="build-gear">
+                    <h3>Stim</h3>
+                    <p>Use Advanced Kyrprax Versatile Stim. Do not pass go, do not
+                        collect two hundred dollars.</p>
+                    <h3>Gear and Set Bonus</h3>
+                    <p>The gearing strategy is actually quite simple. For legendaries,
+                        you want <strong>Gathering Storm Package</strong> and
+                        <strong>Unmatched Haste Package</strong>, in that order.
+                        Without Gathering Storm, Unmatched Haste barely does anything
+                        for you, so prioritize Gathering Storm.</p>
+                    <p>For regular gear, you want the best item level gear you can get
+                        at any point in time. I recommend using the <strong>1.3 GCD</strong>
+                        alacrity build, which will require 6 alacrity pieces, one of
+                        which is your Gathering Storm implant. Thus, in addition to
+                        your legendaries, you will need to get <strong>5 alacrity</strong>
+                        enhancements and <strong>4 critical</strong> enhancements.
+                        The moddable gear vendor <strong>Hyde and Zeek</strong> is far
+                        and away the easiest way to do this, it isn&apos;t worth
+                        bothering with any other method.</p>
+                    <div class="multiplex">
+                        <div class="mux-frame">
+                            <a href="static/stats-lightning.webp" target="_blank">
+                                <img class="size-std" src="static/stats-lightning.webp" alt="Lightning Stats (332)" />
+                            </a>
+                            <p class="caption">Lightning Stats (332)</p>
+                        </div>
+                        <div class="mux-frame">
+                            <a href="static/implants-sorcdps.webp" target="_blank">
+                                <img class="size-std" src="static/implants-sorcdps.webp" alt="Sorc DPS Implants" />
+                            </a>
+                            <p class="caption">Sorc DPS Implants</p>
+                        </div>
+                    </div>
+                    <h3>Augments</h3>
+                    <p>If you use the build I&apos;ve prescribed, all of your augments
+                        should be crit augments. If you&apos;re freestyling,
+                        you&apos;ll want to use augments to reach the proper stat
+                        thresholds, that being 3209 alacrity (for 1.3 second GCD) or
+                        560 alacrity (for 1.4 second GCD); the rest of your stats go
+                        into crit. Do not use accuracy on a sorcerer in PvP, it is a
+                        complete waste of stats.</p>
+                </div>
+                <div id="build-burst">
+                    <h2>The Burst Build</h2>
+                    <p>The first is a tactical, burst-cannon build with a lot of roots
+                        and control to attempt to minimize the uptime enemy players have
+                        on you, as compared to you on them. With this build you will
+                        essentially have to duel anyone that tabs onto you in order to
+                        force them to disengage or die.</p>
+                    <h3>Tactical Item</h3>
+                    <p>You will be running the <strong>Eyrin&apos;s Haste</strong>
+                        tactical, and using the instant Thundering Blast it provides
+                        as a root, with a bit of burst damage baked in on top.</p>
+                    <h3 class="centered">Discipline Tree</h3>
+                    <div class="multiplex">
+                        <div class="mux-frame">
+                            <a href="static/tree-lightning1.webp" target="_blank">
+                                <img class="tree size-std" src="static/tree-lightning1.webp" alt="Discipline Tree (Lightning)" />
+                                <p class="caption">Discipline Tree (Lightning)</p> 
+                            </a>
+                        </div>
+                        <div class="mux-frame">
+                            <a href="static/tree-tk1.webp" target="_blank">
+                                <img class="tree size-std" src="static/tree-tk1.webp" alt="Discipline Tree (Telekinetics)" />
+                                <p class="caption">Discipline Tree (Telekinetics)</p>
+                            </a>
+                        </div>
+                    </div>
+                    <p>You can swap
+                        <span class="sprite sprite-halted-offensive">Halted Offensive</span>
+                        for either of the other options in that tier if you have a use
+                        for
+                        <span class="sprite sprite-chain-lightning">Chain Lightning</span>
+                        (good AOE potential for example).</p>
+                </div>
+                <div id="build-cleave">
+                    <h2>The Cleave Build</h2>
+                    <p>The second build is a very tanky, but support-reliant and
+                        immobile setup with the potential to output devastating AOE
+                        damage and destroy an entire team. While on 90% of occasions
+                        I recommend playing the first build, if you find yourself with
+                        a competent tank and healer, this build can output devastating
+                        pressure. It was mostly used for group ranked, but it&apos;s
+                        worth documenting here because it can be a premade-buster with
+                        proper support. With this build you should be using
+                        <span class="sprite sprite-unnatural-preservation">Unnatural Preservation</span>
+                        and
+                        <span class="sprite sprite-chain-lightning">Chain Lightning</span>
+                        as soon as they are available, and using
+                        <span class="sprite sprite-cloud-mind">Cloud Mind</span>
+                        to supplement your already high passive damage reduction when
+                        major burst is on the way. You should also use
+                        <span class="sprite sprite-force-speed">Force Speed</span>
+                        and
+                        <span class="sprite sprite-overload">Overload</span>
+                        to create distance and take cover from enemy ranged fire, as
+                        always, but you will have limited opportunities to do so with
+                        this build.</p>
+                    <h3>Tactical Item</h3>
+                    <p>You will be running the <strong>Elemental Convection</strong>
+                        tactical, which will reset the cooldown of
+                        <span class="sprite sprite-chain-lightning">Chain Lightning</span>
+                        when you use
+                        <span class="sprite sprite-volt-rush">Volt Rush</span>.</p>
+                    <h3 class="centered">Discipline Tree</h3>
+                    <div class="multiplex">
+                        <div class="mux-frame">
+                            <a href="static/tree-lightning2.webp" target="_blank">
+                                <img class="tree size-std" src="static/tree-lightning2.webp" alt="Discipline Tree (Lightning)" />
+                                <p class="caption">Discipline Tree (Lightning)</p> 
+                            </a>
+                        </div>
+                        <div class="mux-frame">
+                            <a href="static/tree-tk2.webp" target="_blank">
+                                <img class="tree size-std" src="static/tree-tk2.webp" alt="Discipline Tree (Telekinetics)" />
+                                <p class="caption">Discipline Tree (Telekinetics)</p>
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Rotational Adjustment</h3>
+                    <p>With this build you will want to adjust your rotation to use
+                        <span class="sprite sprite-chain-lightning">Chain Lightning</span>
+                        and
+                        <span class="sprite sprite-volt-rush">Volt Rush</span>
+                        in sequence immediately after every
+                        <span class="sprite sprite-thundering-blast">Thundering Blast</span>.
+                        This will ensure you never delay the proc, always do maximum
+                        cleave damage, and proc your
+                        <span class="sprite sprite-unnatural-preservation">Unnatural Preservation</span>
+                        quicker. If there are multiple consistent targets, you will
+                        also want to apply
+                        <span class="sprite sprite-affliction">Affliction</span>
+                        to all of them, as you will passively refresh it resulting in
+                        more damage.</p>
+                </div>
+            </section>
+            <hr />
+            <section id="offense">
+                <h2>Offense</h2>
+                <h3>Abilities</h3>
+                <p>Lightning has six rotational rotational attacks which you will use
+                    frequently. These are
+                    <span class="sprite sprite-affliction">Affliction</span>,
+                    <span class="sprite sprite-thundering-blast">Thundering Blast</span>,
+                    <span class="sprite sprite-lightning-flash">Lightning Flash</span>,
+                    <span class="sprite sprite-crushing-darkness">Crushing Darkness</span>,
+                    <span class="sprite sprite-chain-lightning">Chain Lightning</span> or
+                    <span class="sprite sprite-halted-offensive">Halted Offensive</span>,
+                    <span class="sprite sprite-shock">Shock</span>, and
+                    <span class="sprite sprite-lightning-bolt">Lightning Bolt</span>.
+                </p>
+                <p>There are also two non-rotational abilities that you may use for
+                    niche purposes or with certain builds (such as the cleave build).
+                    These are
+                    <span class="sprite sprite-force-lightning">Force Lightning</span>
+                    and
+                    <span class="sprite sprite-volt-rush">Volt Rush</span>.</p>
+                <h3>Pre-Rotation: Apply Affliction</h3>
+                <p>Before attacking a target, ensure that it has your
+                    <span class="sprite sprite-affliction">Affliction</span>
+                    applied to it. Turning on <em>&quot;Highlight Personal Debuffs&quot;</em>
+                    in the UI editor is a very easy way to track this (it will glow
+                    gold.) Your affliction will refresh, so you don&apos;t need to use
+                    it in rotation, but attacking a target without it on is very very
+                    bad. Affliction causes your
+                    <span class="sprite sprite-thundering-blast">Thundering Blast</span>
+                    to autocrit, which accounts for a great deal of your burst damage.
+                    Do not forget it!
+                </p>
+                <h3 id="rotation">Rotation</h3>
+                <p>The &quot;rotation&quot; for Lightning is just a priority system.
+                    Select the attack highest up in the list that's available at any
+                    given time.</p>
+                <ol class="rotation-list">
+                    <li><span class="sprite sprite-thundering-blast">Thundering Blast</span></li>
+                    <li><span class="sprite sprite-crushing-darkness">Crushing Darkness</span> (only with proc)</li>
+                    <li><span class="sprite sprite-lightning-flash">Lightning Flash</span></li>
+                    <li><span class="sprite sprite-shock">Shock</span> (only with <span class="sprite sprite-crushing-darkness">Crushing Darkness</span> on the target)</li>
+                    <li><span class="sprite sprite-chain-lightning">Chain Lightning</span> or
+                        <span class="sprite sprite-halted-offensive">Halted Offensive</span>
+                        (only with proc)</li>
+                    <li><span class="sprite sprite-lightning-bolt">Lightning Bolt</span></li>
+                </ol>
+                <h3 id="chasing">Chasing</h3>
+                <p>When you start investing damage into a target, it&apos;s incredibly
+                    important that you do not then allow this target to escape and
+                    heal, wasting all of the resources you spent damaging them. If you
+                    are not the enemy team&apos;s focus target, it is your
+                    responsibility to chase down players that attempt to run away from
+                    your team, such as marauders using their camouflage, or snipers
+                    and other sorcs using
+                    <span class="sprite sprite-phase-walk">Phase Walk</span>. There
+                    are very common locations on each map where players go to try and
+                    heal, but until you learn these there are a number of ways to
+                    track these players down by hand.</p>
+                <h4>Minimap</h4>
+                <p>The minimap will show a red dot for each enemy player in combat
+                    with you. If one of these is far to one side, chances are it is a
+                    player trying to escape combat, and you should chase it down.</p>
+                <h4>Name-Clicking</h4>
+                <p>Camouflage will forcibly remove a player from your target, making
+                    them difficult to find again. However, spam clicking their name in
+                    the enemy players frame can counteract, this causing you to
+                    re-target them as soon as they reappear. You can then do a quick
+                    walk in all four directions, and whichever one makes the number
+                    of meters between you and them (shown on the player frame)
+                    decrease is the direction you should head in order to chase them.</p>
+                <h4>Seeing Dots</h4>
+                <p>Seeing as we are applying a permanent dot to our targets before
+                    hitting them, it is also quite common to see yellow flytext
+                    numbers through walls or in remote parts of the map. This means
+                    an enemy player is hiding behind said wall, and you should finish
+                    them off.</p>
+                <h3 id="lock-down">Locking Down</h3>
+                <p>When a player runs from you, the majority of the time they will
+                    attempt to keep running once you reach them. Since we are speccing
+                    into two different roots, the following combination of abilities
+                    will allow you to prevent a player from moving for an obscene
+                    amount of time, and may also cause them to throw a rage fit. You
+                    can also stun them afterward with
+                    <span class="sprite sprite-electrocute">Electrocute</span>
+                    if you have it available in order to get maximum lockdown value.
+                </p>
+                <ol>
+                    <li><span class="sprite sprite-overload">Overload</span></li>
+                    <li><span class="sprite sprite-affliction">Affliction</span>
+                        (if it&apos;s fallen off) or
+                        <span class="sprite sprite-lightning-flash">Lightning Flash</span>
+                        or
+                        <span class="sprite sprite-dark-heal">Dark Heal</span>
+                        (if your health is under 100%) or Any Instant Attack</li>
+                    <li><span class="sprite sprite-thundering-blast">Thundering Blast</span></li>
+                    <li><span class="sprite sprite-crushing-darkness">Crushing Darkness</span></li>
+                    <li><span class="sprite sprite-chain-lightning">Chain Lightning</span> or
+                        <span class="sprite sprite-halted-offensive">Halted Offensive</span></li>
+                </ol>
+                <h3 id="getting-owned">Getting Owned</h3>
+                <p>If you are a new player chasing down a more experienced one, there
+                    is a good chance they will be able to turn it around on you, even
+                    with a significant health disadvantage. If that happens, it&apos;s
+                    advisable to disengage in order to survive&mdash;a stalemate is
+                    better for your team than being down a player. However, you should
+                    take note of what happened and how they managed to do what they
+                    did. There are a million niche kiting tricks in this game and
+                    the only way to learn them is going head-to-head with better
+                    players. Remember: being beaten is not the same thing as throwing.
+                    Throwing would be not attempting to chase the player at all. Just
+                    recognize when you&apos;ve been beaten, learn from your mistakes,
+                    and you will improve dramatically in a short period of time.</p>
+            </section>
+            <hr />
+            <section id="defense">
+                <h2>Defense</h2>
+                <p>This section hasn&apos;t been written yet.</p>
+                <h3>Kiting</h3>
+                <p>If there are multiple people
+                    chasing you, you always want to be hitting the closest one in
+                    order to slow them down, but know that in this situation it is
+                    only a matter of time before you die, and plan accordingly to
+                    extract breakers, defensive cooldowns, et cetera from the people
+                    chasing you.</p>
             </section>
         </div>
     </body>

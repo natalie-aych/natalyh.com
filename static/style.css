@@ -151,11 +151,17 @@ nav#guidesbar button#closeguidesbtn {
     margin-top: 0;
     margin-bottom: 1rem;
 }
-#content ul {
-    margin: 0.5rem 0 1rem;
+#content ul, #content ol {
+    margin: 0 0 1rem;
+}
+#content li {
+    margin: 0.25rem 0;
+}
+#content .rotation-list {
+    font-size: 1.25rem;
 }
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0.5rem;
     font-weight: 700;
 }
 #content h2 {
@@ -175,6 +181,9 @@ nav#guidesbar button#closeguidesbtn {
 #content hr {
     clear: both;
 }
+#content .centered {
+    text-align: center;
+}
 #content .caption {
     font-size: 0.8rem;
     margin: 0;
@@ -188,9 +197,40 @@ nav#guidesbar button#closeguidesbtn {
     border-radius: 0.25rem;
     box-shadow: 0 0 5px rgb(0 0 0 / 75%);
 }
+#content .multiplex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#content .mux-frame img {
+    max-width: 100%;
+    height: auto;
+}
+#content img.size-std {
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+}
+#content .tree {
+    background-color: #222222;
+    padding: 1rem;
+}
+#content .sprite {
+    font-weight: 700;
+    padding-left: 1.33em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    user-select: none;
+}
 @media screen and (max-width: 599px) {
     #content .inline-left, #content .inline-right {
         text-align: center;
+    }
+    #content .multiplex {
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
     }
 }
 @media screen and (min-width: 600px) {

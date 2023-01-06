@@ -1,0 +1,51 @@
+.sprite-affliction {
+    background-image: url('affliction.png');
+}
+.sprite-chain-lightning {
+    background-image: url('chain-lightning.png');
+}
+.sprite-cloud-mind {
+    background-image: url('cloud-mind.png');
+}
+.sprite-crushing-darkness {
+    background-image: url('crushing-darkness.png');
+}
+.sprite-dark-heal {
+    background-image: url('dark-heal.png');
+}
+.sprite-electrocute {
+    background-image: url('electrocute.png');
+}
+.sprite-force-lightning {
+    background-image: url('force-lightning.png');
+}
+.sprite-force-speed {
+    background-image: url('force-speed.png');
+}
+.sprite-halted-offensive {
+    background-image: url('halted-offensive.png');
+}
+.sprite-lightning-bolt {
+    background-image: url('lightning-bolt.png');
+}
+.sprite-lightning-flash {
+    background-image: url('lightning-flash.png');
+}
+.sprite-overload {
+    background-image: url('overload.png');
+}
+.sprite-phase-walk {
+    background-image: url('phase-walk.png');
+}
+.sprite-shock {
+    background-image: url('shock.png');
+}
+.sprite-thundering-blast {
+    background-image: url('thundering-blast.png');
+}
+.sprite-unnatural-preservation {
+    background-image: url('unnatural-preservation.png');
+}
+.sprite-volt-rush {
+    background-image: url('volt-rush.png');
+}
