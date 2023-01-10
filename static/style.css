@@ -1,6 +1,9 @@
+:root {
+    --sans-fonts: 'Roboto', Helvetica, Arial, sans-serif;
+}
 body {
     margin: 0;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--sans-fonts);
     color: #000000;
 }
 h1,h2,h3,h4,h5,h6 {
