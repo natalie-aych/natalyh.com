@@ -5,15 +5,21 @@ body {
     margin: 0;
     font-family: var(--sans-fonts);
     color: #000000;
+    background-color: #f7f2e1;
 }
 h1,h2,h3,h4,h5,h6 {
     cursor: default;
     user-select: none;
 }
 .bg-throne {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -999;
+    width: 100vw;
+    height: 100vh;
     background-image: url('ewthrone.webp');
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -145,12 +151,12 @@ nav#guidesbar button#closeguidesbtn {
     box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
     padding: 1rem 1.5rem;
     min-height: calc(100vh - 8rem - 1px);
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
 }
 #content p {
     font-weight: 400;
     font-size: 1rem;
-    line-height: 1.5;
-    letter-spacing: 0.00938em;
     margin-top: 0;
     margin-bottom: 1rem;
 }
@@ -178,7 +184,7 @@ nav#guidesbar button#closeguidesbtn {
     font-size: 1.17rem;
 }
 #content a {
-    color: #bc982f;
+    color: #9b7e26;
     cursor: pointer;
     text-decoration: none;
 }
@@ -269,7 +275,7 @@ nav#guidesbar button#closeguidesbtn {
         background-color: rgb(0 0 0 / 15%);
     }
     #content a:hover {
-        color: #aa8929;
+        color: #886e20;
     }
     #content a:active {
         color: #987a23;

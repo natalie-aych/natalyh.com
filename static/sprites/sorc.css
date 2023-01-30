@@ -1,87 +1,114 @@
 .sprite-affliction {
-    background-image: url('affliction.png');
+    background-image: url('sorc/affliction.png');
 }
 .sprite-chain-lightning {
-    background-image: url('chain-lightning.png');
+    background-image: url('sorc/chain-lightning.png');
 }
 .sprite-cloud-mind {
-    background-image: url('cloud-mind.png');
+    background-image: url('sorc/cloud-mind.png');
 }
 .sprite-consuming-darkness {
-    background-image: url('consuming-darkness.png');
+    background-image: url('sorc/consuming-darkness.png');
+}
+.sprite-creeping-terror {
+    background-image: url('sorc/creeping-terror.png');
 }
 .sprite-crushing-darkness {
-    background-image: url('crushing-darkness.png');
+    background-image: url('sorc/crushing-darkness.png');
 }
 .sprite-dark-heal {
-    background-image: url('dark-heal.png');
+    background-image: url('sorc/dark-heal.png');
+}
+.sprite-dark-infusion {
+    background-image: url('sorc/dark-infusion.png');
+}
+.sprite-death-brand {
+    background-image: url('sorc/death-brand.png');
+}
+.sprite-death-field {
+    background-image: url('sorc/death-field.png');
+}
+.sprite-demolish {
+    background-image: url('sorc/demolish.png');
 }
 .sprite-electrocute {
-    background-image: url('electrocute.png');
+    background-image: url('sorc/electrocute.png');
 }
 .sprite-expunge {
-    background-image: url('expunge.png');
+    background-image: url('sorc/expunge.png');
 }
 .sprite-extrication {
-    background-image: url('extrication.png');
+    background-image: url('sorc/extrication.png');
 }
 .sprite-force-barrier {
-    background-image: url('force-barrier.png');
+    background-image: url('sorc/force-barrier.png');
+}
+.sprite-force-leech {
+    background-image: url('sorc/force-leech.png');
 }
 .sprite-force-lightning {
-    background-image: url('force-lightning.png');
+    background-image: url('sorc/force-lightning.png');
 }
 .sprite-force-speed {
-    background-image: url('force-speed.png');
+    background-image: url('sorc/force-speed.png');
 }
 .sprite-force-storm {
-    background-image: url('force-storm.png');
+    background-image: url('sorc/force-storm.png');
 }
 .sprite-halted-offensive {
-    background-image: url('halted-offensive.png');
+    background-image: url('sorc/halted-offensive.png');
+}
+.sprite-innervate {
+    background-image: url('sorc/innervate.png');
 }
 .sprite-lightning-bolt {
-    background-image: url('lightning-bolt.png');
+    background-image: url('sorc/lightning-bolt.png');
 }
 .sprite-lightning-flash {
-    background-image: url('lightning-flash.png');
+    background-image: url('sorc/lightning-flash.png');
 }
 .sprite-lightning-strike {
-    background-image: url('lightning-strike.png');
+    background-image: url('sorc/lightning-strike.png');
 }
 .sprite-overload {
-    background-image: url('overload.png');
+    background-image: url('sorc/overload.png');
 }
 .sprite-phase-walk {
-    background-image: url('phase-walk.png');
+    background-image: url('sorc/phase-walk.png');
 }
 .sprite-polarity-shift {
-    background-image: url('polarity-shift.png');
+    background-image: url('sorc/polarity-shift.png');
 }
 .sprite-recklessness {
-    background-image: url('recklessness.png');
+    background-image: url('sorc/recklessness.png');
 }
 .sprite-resurgence {
-    background-image: url('resurgence.png');
+    background-image: url('sorc/resurgence.png');
+}
+.sprite-revivification {
+    background-image: url('sorc/revivification.png');
+}
+.sprite-roaming-mend {
+    background-image: url('sorc/roaming-mend.png');
 }
 .sprite-seethe {
-    background-image: url('seethe.png');
+    background-image: url('sorc/seethe.png');
 }
 .sprite-shock {
-    background-image: url('shock.png');
+    background-image: url('sorc/shock.png');
 }
 .sprite-static-barrier {
-    background-image: url('static-barrier.png');
+    background-image: url('sorc/static-barrier.png');
 }
 .sprite-thundering-blast {
-    background-image: url('thundering-blast.png');
+    background-image: url('sorc/thundering-blast.png');
 }
 .sprite-unbreakable-will {
-    background-image: url('unbreakable-will.png');
+    background-image: url('sorc/unbreakable-will.png');
 }
 .sprite-unnatural-preservation {
-    background-image: url('unnatural-preservation.png');
+    background-image: url('sorc/unnatural-preservation.png');
 }
 .sprite-volt-rush {
-    background-image: url('volt-rush.png');
+    background-image: url('sorc/volt-rush.png');
 }
