@@ -241,6 +241,7 @@ nav#guidesbar button#closeguidesbtn {
     background-size: contain;
     background-position: left top;
     user-select: none;
+    white-space: nowrap;
 }
 @media screen and (max-width: 599px) {
     #content .inline-left, #content .inline-right {

@@ -118,8 +118,8 @@
                             <p class="caption">Corruption Stats (332)</p>
                         </div>
                         <div class="mux-frame">
-                            <a href="static/implants-sorcheals.webp" target="_blank">
-                                <img class="size-std" src="static/implants-sorcheals.webp" alt="Sorc Healer Implants" />
+                            <a href="static/implants-sorcheal.webp" target="_blank">
+                                <img class="size-std" src="static/implants-sorcheal.webp" alt="Sorc Healer Implants" />
                             </a>
                             <p class="caption">Sorc Healer Implants</p>
                         </div>
@@ -248,7 +248,16 @@
                     <span class="sprite sprite-unnatural-preservation">Unnatural Preservation</span>
                     or a proc&apos;d (glowy)
                     <span class="sprite sprite-dark-heal">Dark Heal</span>,
-                    depending on whether you are the one taking the most damage.
+                    depending on whether you are the one taking the most damage. Worth
+                    noting that
+                    <span class="sprite sprite-revivification">Revivification</span>
+                    will not consume Recklessness charges, so you can do something
+                    like
+                    <span class="sprite sprite-recklessness">Recklessness</span>,
+                    <span class="sprite sprite-innervate">Innervate</span>,
+                    <span class="sprite sprite-revivification">Revivification</span>,
+                    <span class="sprite sprite-dark-heal">Dark Heal</span>
+                    if you don&apos;t already have a proc ready.
                 </p>
                 <p><span class="sprite sprite-polarity-shift">Polarity Shift</span>
                     does a couple of things. First, it makes you immune to being
@@ -323,10 +332,18 @@
                 <p>and</p>
                 <ol class="rotation-list">
                     <li><span class="sprite sprite-resurgence">Resurgence</span></li>
-                    <li><span class="sprite sprite-dark-infusion">Dark Infusion</span></li>
+                    <li><span class="sprite sprite-dark-infusion">Dark Infusion</span>
+                        or
+                        <span class="sprite sprite-revivification">Revivification</span></li>
                     <li><span class="sprite sprite-dark-heal">Dark Heal</span></li>
                 </ol>
-                <p>For example, one possible rotation is as follows:</p>
+                <p>Generally you&apos;ll choose
+                    <span class="sprite sprite-dark-infusion">Dark Infusion</span>
+                    if you can stand still and freecast without being interrupted, and
+                    <span class="sprite sprite-revivification">Revivification</span>
+                    if you need to move and instant-cast. The primary motivation for
+                    this is if you are the enemy team&apos;s tunnel target.</p>
+                <p>One possible way to piece this together is as follows:</p>
                 <ol class="rotation-list">
                     <li><span class="sprite sprite-resurgence">Resurgence</span></li>
                     <li><span class="sprite sprite-roaming-mend">Roaming Mend</span></li>
@@ -338,17 +355,109 @@
                     <li><span class="sprite sprite-dark-heal">Dark Heal</span></li>
                     <li><span class="sprite sprite-consuming-darkness">Consuming Darkness</span></li>
                 </ol>
-                <p>Realistically, your rotation will break down rapidly in the
+                <p>Realistically, though, your rotation will break down rapidly in the
                     presence of interrupts and stuns, so it&apos;s better to just
                     learn the two combos and innervate between them so you have some
                     flexibility to account for the unpredictable.</p>
                 <h3>Force Management</h3>
-                <p>TBD</p>
-                <h3 id="chasing">Chasing</h3>
-                <p>If you say &quot;you LOS&apos;d me&quot; and don&apos;t heal, you
-                    are trash. Your job is to chase your target.</p>
-                <p>Obviously not the actual guide text.</p>
+                <p>Corruption is the only spec in the game that has active resource
+                    management. This means that unlike DPS specs or other healers you
+                    may be used to, your energy will not regenerate on its own, and
+                    you will need to periodically use
+                    <span class="sprite sprite-consuming-darkness">Consuming Darkness</span>
+                    to ensure you don&apos;t run out. This is actually quite strong,
+                    because it allows you to dump your force in times of urgency, and
+                    regenerate it in times of safety. It does, however, have the
+                    major downside of being extremely unintuitive to learn.</p>
+                <p>Normally, and on DPS specs,
+                    <span class="sprite sprite-consuming-darkness">Consuming Darkness</span>
+                    gives you a debuff which decreases your natural force regeneration,
+                    and should be avoided whenever possible. However, as corruption,
+                    whenever your
+                    <span class="sprite sprite-innervate">Innervate</span>
+                    critically heals, you will receive a buff which allows you to use
+                    <span class="sprite sprite-consuming-darkness">Consuming Darkness</span>
+                    without penalty, instead granting a buff called
+                    <strong>Reverse Corruptions</strong> which will actually increase
+                    your natural force regeneration rate. No matter how you are
+                    managing force, be it splurging or playing conservative, you
+                    always want to at minimum keep this buff up at all times, which
+                    means using
+                    <span class="sprite sprite-consuming-darkness">Consuming Darkness</span>
+                    with proc at least once every 10 seconds. If for some reason you
+                    are screwed and need force immediately, you can also consume this
+                    buff by using
+                    <span class="sprite sprite-consuming-darkness">Consuming Darkness</span>
+                    without the proc, which will prevent you from receiving the
+                    <strong>Weary</strong> debuff which can nuke your force. You never
+                    want to have <strong>Weary</strong> stacks on you, so make sure to
+                    keep the
+                    <span class="sprite sprite-innervate">Innervate</span>s
+                    and
+                    <span class="sprite sprite-consuming-darkness">Consuming Darkness</span>es
+                    coming out regularly, at about a 2:3 ratio. Generally, there is
+                    rhythm to this which you will get the hang of as you gain
+                    experience.
+                </p>
+                <p>It&apos;s also worthwhile to note that you do no healing while you
+                    are regenerating force with
+                    <span class="sprite sprite-consuming-darkness">Consuming Darkness</span>,
+                    so it&apos;s advantageous not to take damage while you use it. If
+                    you have the opportunity to step behind a pole, wall, or other
+                    object before you need to use a series of these, you should make
+                    it a priority to do so.</p>
+                <p>Force management is pretty free-form, but always prioritize the
+                    survival of your teammates over sustaining your force pool. Your
+                    left-over force will do you no good at the end of a match or going
+                    into the next round.</p>
+                <h3 id="chasing">Chasing Targets</h3>
+                <p>PvP healing is very different to PvE. There are many classes which
+                    cannot afford to sit still and let you cast a rotation on them,
+                    because the damage they will take will far outpace your heals, and
+                    many more which will benefit from kiting although they could
+                    probably afford to sit still and tank the damage. Your
+                    responsibility as the healer is not actually to produce the
+                    largest HPS number possible, but rather, to create the smallest
+                    possible <em>incoming DPS - incoming HPS</em> difference, and
+                    therefore in order to play competently you have to kite with
+                    your target.</p>
+                <p>Recall that by substituting
+                    <span class="sprite sprite-dark-infusion">Dark Infusion</span>
+                    for
+                    <span class="sprite sprite-revivification">Revivification</span>
+                    in your second healing combination, every single ability you use
+                    can be activated on the move. Very few classes specs have this
+                    luxury, and fewer still have the ability to keep up with your
+                    mobility through the amount of control you can put out. This
+                    means that you are actually at a massive advantage when following
+                    a kiting target around objects, changing levels, running behind
+                    walls, et cetera, as opposed to standing still. You will likely be
+                    within melee range of your healing target to get maximum value out
+                    of this strategy, and there&apos;s nothing wrong with that. If
+                    your target does happen to be faster than you, you can also wait
+                    for enemies to reach them and then use
+                    <span class="sprite sprite-extrication">Extrication</span>
+                    to pull them to your location, creating separation in the opposite
+                    direction and likely confusing many of your enemies along the way.</p>
+                <p>In summary, if you find yourself thinking &quot;he&apos;s
+                    line-of-sighting me, I can&apos;t heal him!&quot;, you need to
+                    reframe the problem as &quot;I can&apos;t keep up with him.&quot;,
+                    and then set about solving the problem from there. Recall that
+                    <span class="sprite sprite-force-speed">Force Speed</span>
+                    will purge every slow or root in the game, and using
+                    <span class="sprite sprite-expunge">Expunge</span>
+                    on yourself will cleanse all but a few. A particularly tricky
+                    situation may require you to take <strong>Surging Speed</strong>
+                    for access to more speed boosts and movement buffs, but nothing
+                    in the game should be able to outrun you once you are specced
+                    into it.</p>
+                <p><strong>Spoiler Warning:</strong> This is also our survival
+                    strategy.</p>
             </section>
+            <hr />
+            <h3>Kiting</h3>
+            <h3>Peeling</h3>
+            <h3>Bubble Stun</h3>
             <hr />
             <section id="defense">
                 <h2>Defense</h2>
