@@ -25,9 +25,9 @@
         <script type="text/javascript" src="static/dynamics.js" defer></script>
     </head>
     <body>
-        <nav id="titlebar">
-            <h1><a href="/">Natalyh&apos;s SWTOR Guides</a></h1>
-        </nav>
+<?php
+require('include/navbar.php');
+?>
         <div class="bg-throne"></div>
         <div id="content">
             <div class="inline-right">

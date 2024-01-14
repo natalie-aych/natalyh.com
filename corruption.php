@@ -17,8 +17,8 @@
         <meta property="og:image:width" content="460" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Natalyh&apos;s SWTOR Guides" />
-        <meta property="og:url" content="https://natalyh.tk/corruption.html" />
-        <link rel="canonical" href="https://natalyh.tk/corruption.html" />
+        <meta property="og:url" content="https://natalyh.tk/corruption" />
+        <link rel="canonical" href="https://natalyh.tk/corruption" />
         <title>SWTOR 7.3 Corruption PvP Guide / Natalyh&apos;s SWTOR Guides</title>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
         <link rel="stylesheet" type="text/css" href="static/style.css" />
@@ -27,9 +27,9 @@
         <script type="text/javascript" src="static/dynamics.js" defer></script>
     </head>
     <body>
-        <nav id="titlebar">
-            <h1><a href="index.html">Natalyh&apos;s SWTOR Guides</a></h1>
-        </nav>
+<?php
+require('include/navbar.php');
+?>
         <div class="bg-throne"></div>
         <div id="content">
             <header id="banner" class="banner-corruption">
@@ -451,7 +451,7 @@
                     for access to more speed boosts and movement buffs, but nothing
                     in the game should be able to outrun you once you are specced
                     into it.</p>
-                <p><strong>Spoiler Warning:</strong> This is also our survival
+                <p><strong>Spoiler Warning:</strong> This is also your survival
                     strategy.</p>
             </section>
             <hr />
@@ -886,26 +886,9 @@
                     a steep cost in terms of mobility, which is your highest priority
                     when kiting or chasing a target.
             </section>
-            <hr />
-            <footer>
-                <h2>Thanks for Reading</h2>
-                <p>That&apos;s about all I have for now, I may add a dueling section
-                    or something later. Hopefully you enjoyed reading and if you have
-                    criticisms or things I missed that you want to know about, contact
-                    me by one of the ways listed on the <a href="index.html">home page</a>.
-                </p>
-                <h3>Helpful Links and Videos</h3>
-                <p>Here are some videos you may consider watching to help out your
-                    sorc gameplay.</p>
-                <ul>
-                    <li>Durmoth&apos;s <a href="https://www.youtube.com/watch?v=9u9OEtQPkWY">The Rise of a Peasant</a></li>
-                    <li>Lyala&apos;s <a href="https://www.youtube.com/watch?v=wZvA4knb12M">Sorc vs Merc Duel with Alim</a></li>
-                    <li>Lyala&apos;s <a href="https://www.youtube.com/watch?v=rz-6F4Cm3Zk">Unstoppable</a> (Kiting Video)</li>
-                    <li>Maltoxic&apos;s <a href="https://www.youtube.com/watch?v=p1QmwiyiQzI">Corruption Sorc 2v3</a></li>
-                    <li>My <a href="https://www.youtube.com/watch?v=u2LC1prnqs8">Return of Spanish Nat</a> (embedded above)</li>
-                    <li>Whatever other random shit I decide to post on <a href="https://www.youtube.com/@natalyyh">my youtube</a>.</li>
-                </ul>
-            </footer>
+<?php
+require('include/guide-footer.php');
+?>
         </div>
     </body>
 </html>

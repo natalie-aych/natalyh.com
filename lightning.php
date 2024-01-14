@@ -6,20 +6,20 @@
         <meta name="author" content="Natalyh" />
         <meta name="description" content="A new player&apos;s guide for how to play the Lightning Sorcerer specialization in PvP arenas and warzones." />
         <meta property="og:description" content="A new player&apos;s guide for how to play the Lightning Sorcerer specialization in PvP arenas and warzones." />
-        <meta property="og:title" content="SWTOR 7.3 Lightning PvP Guide" />
+        <meta property="og:title" content="SWTOR 7.4 Lightning PvP Guide" />
         <meta property="og:type" content="article" />
         <meta property="article:author" content="https://natalyh.tk/">
         <meta property="article:published_time" content="2022-12-27T16:49:00.000-08:00">
-        <meta property="article:modified_time" content="2022-12-27T16:49:00.000-08:00">
+        <meta property="article:modified_time" content="2024-01-13T19:08:00.000-08:00">
         <meta property="article:section" content="Gaming">
         <meta property="og:image" content="https://natalyh.tk/static/banner-lightning.webp" />
         <meta property="og:image:width" content="460" />
         <meta property="og:image:width" content="460" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Natalyh&apos;s SWTOR Guides" />
-        <meta property="og:url" content="https://natalyh.tk/lightning.html" />
-        <link rel="canonical" href="https://natalyh.tk/lightning.html" />
-        <title>SWTOR 7.3 Lightning PvP Guide / Natalyh&apos;s SWTOR Guides</title>
+        <meta property="og:url" content="https://natalyh.tk/lightning" />
+        <link rel="canonical" href="https://natalyh.tk/lightning" />
+        <title>SWTOR 7.4 Lightning PvP Guide / Natalyh&apos;s SWTOR Guides</title>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
         <link rel="stylesheet" type="text/css" href="static/style.css" />
         <link rel="stylesheet" type="text/css" href="static/sprites/sorc.css" />
@@ -27,13 +27,13 @@
         <script type="text/javascript" src="static/dynamics.js" defer></script>
     </head>
     <body>
-        <nav id="titlebar">
-            <h1><a href="index.html">Natalyh&apos;s SWTOR Guides</a></h1>
-        </nav>
+<?php
+require('include/navbar.php');
+?>
         <div class="bg-throne"></div>
         <div id="content">
             <header id="banner" class="banner-lightning">
-                <h1>SWTOR 7.3 Lightning PvP Guide</h1>
+                <h1>SWTOR 7.4 Lightning PvP Guide</h1>
             </header>
             <section id="playstyle">
                 <h2>The Lightning Playstyle</h2>
@@ -45,7 +45,7 @@
                     or broken, they are referring to madness, and at difference to
                     that spec, you will actually have to play well to do well on this
                     one. However, the gaps between specs are closing and I&apos;m
-                    honestly quite satisfied with how the class balance in 7.3 is
+                    honestly quite satisfied with how the class balance is
                     turning out. So, if you&apos;re bored of facerolling the queue on
                     madness, or you enjoy the brutal sounds of shooting lightning
                     bolts at your enemies with every GCD, or you just aren&apos;t an
@@ -63,7 +63,7 @@
                     feel like Emperor Palpatine and effortlessly destroy any enemies
                     in your path with torrents of force lightning, you&apos;ll likely
                     want to respec to
-                    <a href="madness.html">madness</a>
+                    <a href="/madness">madness</a>
                     and never look back.</p>
             </section>
             <hr />
@@ -582,6 +582,17 @@
                     even if you&apos;re at 100%. It&apos;s a shield so it can&apos;t
                     over-heal.
                 </p>
+                <h3 id="stun-debuff"><span class="sprite sprite-electrocute">Stun Debuff</span></h3>
+                <p>As of 7.4, targets that you stun with your
+                    <span class="sprite sprite-electrocute">Electrocute</span>
+                    do 25% less damage for 10 seconds. This is a lot of damage
+                    reduction and it lasts for a long time. You very much want to make
+                    sure this is applied to whoever will do the most damage on the
+                    enemy team, as soon as it comes off cooldown. If there is a
+                    powertech, use it on the powertech and he will cry. If there are
+                    multiple powertechs, use it on the best powertech and you will cry
+                    slightly less about being the target of multiple powertechs.
+                </p>
                 <h3 id="major-dcds">Major Defensive Cooldowns</h3>
                 <p>As a sorc, you have three (two and a half, really) defensive
                     cooldowns that will help you out of big trouble. These are
@@ -1047,26 +1058,9 @@
                     of very little importance in the grand scheme.
                 </p>
             </section>
-            <hr />
-            <footer>
-                <h2>Thanks for Reading</h2>
-                <p>That&apos;s about all I have for now, I may add a dueling section
-                    or something later. Hopefully you enjoyed reading and if you have
-                    criticisms or things I missed that you want to know about, contact
-                    me by one of the ways listed on the <a href="index.html">home page</a>.
-                </p>
-                <h3>Helpful Links and Videos</h3>
-                <p>Here are some videos you may consider watching to help out your
-                    sorc gameplay.</p>
-                <ul>
-                    <li>Durmoth&apos;s <a href="https://www.youtube.com/watch?v=9u9OEtQPkWY">The Rise of a Peasant</a></li>
-                    <li>Lyala&apos;s <a href="https://www.youtube.com/watch?v=wZvA4knb12M">Sorc vs Merc Duel with Alim</a></li>
-                    <li>Lyala&apos;s <a href="https://www.youtube.com/watch?v=rz-6F4Cm3Zk">Unstoppable</a> (Kiting Video)</li>
-                    <li>Maltoxic&apos;s <a href="https://www.youtube.com/watch?v=p1QmwiyiQzI">Lightning Sorc 2v3</a></li>
-                    <li>My <a href="https://www.youtube.com/watch?v=u2LC1prnqs8">Return of Spanish Nat</a> (embedded above)</li>
-                    <li>Whatever other random shit I decide to post on <a href="https://www.youtube.com/@natalyyh">my youtube</a>.</li>
-                </ul>
-            </footer>
+<?php
+require('include/guide-footer.php');
+?>
         </div>
     </body>
 </html>
