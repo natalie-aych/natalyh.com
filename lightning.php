@@ -775,47 +775,54 @@ require('include/navbar.php');
                     avoidance, as you will be hit for more damage by exposing yourself
                     than you will be able to reduce, but if you are able to have both
                     then you should do so.</p>
-                <p>Lightning has three sources of passive DR:
-                    <ul>
-                        <li>Activating
-                            <span class="sprite sprite-lightning-bolt">Lightning Bolt</span>
-                            will grant stacks of 5% damage reduction, up to 15%.</li>
-                        <li>Activating
-                            <span class="sprite sprite-thundering-blast">Thundering Blast</span>
-                            will grant one more stack of 5% damage reduction.</li>
-                        <li>Utilizing
-                            <span class="sprite sprite-static-barrier">Static Barrier</span>
-                            on cooldown will grant a final stack of 5% damage reduction.
-                            Static Barrier also absorbs a bit of damage, so you should
-                            make it a habit to use this whenever it is available, like
-                            <span class="sprite sprite-unnatural-preservation">Unnatural Preservation</span>.
-                        </li>
-                    </ul>
-                    The easiest way to maintain this DR is by using the 3x
-                    <span class="sprite sprite-lightning-bolt">Lightning Bolts</span>
+                <p>Lightning has three sources of passive DR:</p>
+                <ul>
+                    <li>Activating
+                        <span class="sprite sprite-lightning-bolt">Lightning Bolt</span>
+                        will grant stacks of 5% damage reduction up to three times, for a
+                        total of 15%.</li>
+                    <li>Activating
+                        <span class="sprite sprite-thundering-blast">Thundering Blast</span>
+                        will grant one more stack of 5% damage reduction.</li>
+                    <li>Utilizing
+                        <span class="sprite sprite-static-barrier">Static Barrier</span>
+                        on cooldown will grant a final stack of 5% damage reduction.
+                        Static Barrier also absorbs a bit of damage, so you should
+                        make it a habit to use this whenever it is available, like
+                        <span class="sprite sprite-unnatural-preservation">Unnatural Preservation</span>.
+                    </li>
+                </ul>
+                <p>Some quick napkin math tells us that maintaining all this properly will
+                    our damage reduction by 25%. That&apos;s as much as a powertech&apos;s energy
+                    shield, except we get it with 100% uptime and no cooldown. Maintaining this DR
+                    is critical in prolonged engagements or when support roles are involved, and
+                    plenty nice to have the rest of the time as well.</p>
+                <p>The easiest way to maintain your DR is to use all three instant-cast
+                    <span class="sprite sprite-lightning-bolt">Lightning Bolt</span>s
                     procced by
                     <span class="sprite sprite-force-speed">Force Speed</span>
                     in the opener, and then another
                     <span class="sprite sprite-lightning-bolt">Lightning Bolt</span>
                     each time that
-                    <strong>Subversion</strong> is procced
-                    (<span class="sprite sprite-lightning-bolt">Lightning Bolt</span>
-                    will glow gold). The remainder of your <strong>Convection</strong>
-                    procs from
+                    <strong>Subversion</strong> is procced. This effectively means, use three in
+                    the opener and then hit
+                    <span class="sprite sprite-lightning-bolt">Lightning Bolt</span>
+                    whenever it randomly glows gold. The remainder of your
+                    <strong>Convection</strong> procs from
                     <span class="sprite sprite-force-speed">Force Speed</span>
-                    should be spent on
-                    <span class="sprite sprite-thundering-blast">Thundering Blast</span>
-                    (which will also glow gold).
+                    can be spent on
+                    <span class="sprite sprite-thundering-blast">Thundering Blast</span>,
+                    which will also glow gold.
                 </p>
-                <p>In addition to its passive DR, which should be active at all times,
+                <p>In addition to this passive DR, which should be active at all times,
                     the builds I have recommended have access to active DR every 45
                     seconds by way of
                     <span class="sprite sprite-cloud-mind">Cloud Mind</span>.
-                    Cloud Mind grants 25% additional damage reduction for 6 seconds,
+                    Cloud Mind grants 25% additional damage reduction (total: 50%) for 6 seconds,
                     and should be used when you anticipate big incoming burst damage.
                     This is an intuition you will develop as you play, but a good rule
-                    of thumb is that whenever you are snared or rooted (i.e. it&apos;s
-                    hard for your character to move), big damage is on the way
+                    of thumb is that whenever you are snared or rooted (whenever it&apos;s
+                    hard for your character to move freely), big damage is on the way
                     shortly.</p>
                 <h3>Surviving Net</h3>
                 <p>Many new sorcs think they have everything figured out and then
@@ -846,7 +853,7 @@ require('include/navbar.php');
                 <p>Finally, having support roles on your team will change the way in
                     which you kite. Since the supports need to be able to guard or
                     heal you, you will need to stay within their effective range in
-                    order for this to work, which quite a small arena to play in.
+                    order for this to work, which is quite a small arena to play in.
                     Therefore, we will need to make some adjustments to our kiting
                     style.</p>
                 <h4>Kiting With Tanks</h4>
@@ -854,8 +861,8 @@ require('include/navbar.php');
                     entirely ranged (regardless of what it actually is). Guard does
                     not require line of sight to function, and thus you should make
                     yourself impossible to catch by playing ring-around-the-rosy with
-                    an object an applying slows to the players chasing you in order
-                    to slow down the incoming damage.</p>
+                    an object and applying slows to the players chasing you in order
+                    to reduce the rate of incoming damage.</p>
                 <h4>Kiting With Healers (or Both)</h4>
                 <p>Healing, on the other hand, does require line of sight on the
                     target, so when you have a healer you should (almost always) play
@@ -896,7 +903,7 @@ require('include/navbar.php');
                     defensive cooldown, and you are not the target (this is called
                     freecasting). In this instance, you should just swap to the
                     second target until the first target&apos;s DCD expires in order
-                    to avoid wasting damage. As Lightning target swapping barely
+                    to avoid wasting damage. As Lightning, target swapping barely
                     impacts your damage as long as you swap back in time to refresh
                     <span class="sprite sprite-affliction">Affliction</span>
                     on the first target, which you can do with
@@ -989,8 +996,7 @@ require('include/navbar.php');
                     stunned. A stun chain can easily keep you inert during your
                     interrupt immunity and damage boost window, which is a massive
                     penalty to your damage. In more scrappy contexts we will normally
-                    use polarity immediately in the opener to hit the target for an
-                    80k
+                    use polarity immediately in the opener to hit the target for an 80k
                     <span class="sprite sprite-thundering-blast">Thundering Blast</span>
                     before they have the chance react. This is far less effective in
                     team ranked because ultimately this mode is about sustained
@@ -1006,7 +1012,8 @@ require('include/navbar.php');
                     <span class="sprite sprite-force-speed">Force Speed</span>
                     out of the group and THEN AND ONLY THEN pop
                     <span class="sprite sprite-polarity-shift">Polarity Shift</span>
-                    to do a nuclear opener. If you want to be cheeky, you can use a
+                    to do a nuclear opener into the unguarded target. If you want to be
+                    cheeky, you can use a
                     <span class="sprite sprite-volt-rush">Volt Rush</span>
                     in the air as you&apos;re getting pulled in to get a free
                     <span class="sprite sprite-chain-lightning">Chain Lightning</span>
@@ -1057,6 +1064,36 @@ require('include/navbar.php');
                     in order to apply the vulnerable debuff to targets, but this is
                     of very little importance in the grand scheme.
                 </p>
+                <h3 id="triple-chain-lightning">The Triple Chain Lightning Rotation</h3>
+                <p>If you, for some reason, do not find yourself to be one of the
+                    targets in a team ranked situation, or you happen to be playing
+                    warzones in AOE spec, your job is to do an unfathomable amount
+                    of damage to the enemy team, which will result in their healer
+                    panicking and everybody dying. Fortunately, there is an easy
+                    static rotation which can be followed for maximal damage in this
+                    circumstance. Unlike the other rotations in this guide, this is
+                    not a priority system. Do the steps in order and then repeat.</p>
+                <ol class="rotation">
+                    <li value="0">Apply <span class="sprite sprite-affliction">Affliction</span>
+                        to all targets in range.</li>
+                    <li><span class="sprite sprite-chain-lightning">Chain Lightning</span>
+                        (not proc'd&mdash;hardcast this)</li>
+                    <li><span class="sprite sprite-thundering-blast">Thundering Blast</span></li>
+                    <li><span class="sprite sprite-chain-lightning">Chain Lightning</span></li>
+                    <li><span class="sprite sprite-volt-rush">Volt Rush</span></li>
+                    <li><span class="sprite sprite-chain-lightning">Chain Lightning</span></li>
+                    <li>Three abilities of your choosing. This is a meaningless
+                        portion of your damage. Even offhealing would not be a bad
+                        bet here. You can also build DR with
+                        <span class="sprite sprite-lightning-bolt">Lightning Bolt</span>s,
+                        or eek out a little bit more damage with some combination of
+                        <span class="sprite sprite-volt-rush">Volt Rush</span> and
+                        <span class="sprite sprite-force-storm">Force Storm</span>
+                        (don&apos;t do the Force Storm second or you&apos;ll
+                        accidentally proc
+                        <span class="sprite sprite-chain-lightning">Chain Lightning</span>
+                        early, though.)</li>
+                </ol>
             </section>
 <?php
 require('include/guide-footer.php');
