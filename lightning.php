@@ -793,7 +793,7 @@ require('include/navbar.php');
                     </li>
                 </ul>
                 <p>Some quick napkin math tells us that maintaining all this properly will
-                    our damage reduction by 25%. That&apos;s as much as a powertech&apos;s energy
+                    increase our damage reduction by 25%. That&apos;s as much as a powertech&apos;s energy
                     shield, except we get it with 100% uptime and no cooldown. Maintaining this DR
                     is critical in prolonged engagements or when support roles are involved, and
                     plenty nice to have the rest of the time as well.</p>
