@@ -8,13 +8,13 @@
         <meta property="og:description" content="Assorted SWTOR PvP guides for various classes, written by Nat." />
         <meta property="og:title" content="Page Not Found" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://natalyh.tk/static/profile.png" />
+        <meta property="og:image" content="https://natalyh.com/static/profile.png" />
         <meta property="og:image:width" content="460" />
         <meta property="og:image:width" content="460" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Natalyh&apos;s SWTOR Guides" />
-        <meta property="og:url" content="https://natalyh.tk/404" />
-        <link rel="canonical" href="https://natalyh.tk/404" />
+        <meta property="og:url" content="https://natalyh.com/404" />
+        <link rel="canonical" href="https://natalyh.com/404" />
         <title>Page Not Found / Natalyh&apos;s SWTOR Guides</title>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
         <link rel="stylesheet" type="text/css" href="/static/style.css" />

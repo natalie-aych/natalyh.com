@@ -8,17 +8,17 @@
         <meta property="og:description" content="A new player&apos;s guide for how to play the Lightning Sorcerer specialization in PvP arenas and warzones." />
         <meta property="og:title" content="SWTOR 7.4 Lightning PvP Guide" />
         <meta property="og:type" content="article" />
-        <meta property="article:author" content="https://natalyh.tk/">
+        <meta property="article:author" content="https://natalyh.com/">
         <meta property="article:published_time" content="2022-12-27T16:49:00.000-08:00">
         <meta property="article:modified_time" content="2024-01-13T19:08:00.000-08:00">
         <meta property="article:section" content="Gaming">
-        <meta property="og:image" content="https://natalyh.tk/static/banner-lightning.webp" />
+        <meta property="og:image" content="https://natalyh.com/static/banner-lightning.webp" />
         <meta property="og:image:width" content="460" />
         <meta property="og:image:width" content="460" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Natalyh&apos;s SWTOR Guides" />
-        <meta property="og:url" content="https://natalyh.tk/lightning" />
-        <link rel="canonical" href="https://natalyh.tk/lightning" />
+        <meta property="og:url" content="https://natalyh.com/lightning" />
+        <link rel="canonical" href="https://natalyh.com/lightning" />
         <title>SWTOR 7.4 Lightning PvP Guide / Natalyh&apos;s SWTOR Guides</title>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
         <link rel="stylesheet" type="text/css" href="static/style.css" />
