@@ -56,7 +56,7 @@ require('include/navbar.php');
             </div>
             <div id="faq-contact" class="faq">
                 <h3>How can I contact you?</h3>
-                <p>Message <a href="https://discordapp.com/users/513584600627413016">natalyh</a> (formerly Jiddar#3146) on Discord, ideally, or just click the link. Alternatively, you can email <a href="mailto:nat@natalyh.com">nat@natalyh.com</a> and I may see it eventually.</p>
+                <p>Message <a href="https://discordapp.com/users/1308307265589215274">natalyhh_</a> on Discord (or just click the link). Alternatively, you can email <a href="mailto:nat@natalyh.com">nat@natalyh.com</a>.</p>
             </div>
         </div>
     </body>
