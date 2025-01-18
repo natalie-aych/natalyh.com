@@ -1,21 +1,24 @@
-$(function() {
-    const navbar = $('nav#titlebar');
-    const ogb = $('#openguidesbtn'), cgb = $('#closeguidesbtn');
-    const guidesbar = $('nav#guidesbar');
-    const hidenav = e => guidesbar.hide(500);
-    ogb.click(e => guidesbar.toggle(500));
-    cgb.click(hidenav);
+(function() {
+    const ogb = document.querySelector('#openguidesbtn'),
+        cgb = document.querySelector('#closeguidesbtn');
+    const guidesbar = document.querySelector('nav#guidesbar');
+    const pagebody = document.querySelector('#content');
+
+    const hidenav = () => guidesbar.classList.add('closed');
+    const togglenav = () => guidesbar.classList.toggle('closed');
 
     const navclick = function(e) {
         if (e.target.tagName === 'a' || e.target.tagName === 'A') return;
-        const targets = $(this).find('a');
-        if (targets.length < 1) return;
+        const target = this.querySelector('a');
+        if (target === null) return;
         e.preventDefault();
-        $(this).find('a')[0].click();
+        target.click();
     };
 
-    for (const li of guidesbar.find('li')) {
-        $(li).click(navclick);
+    ogb.addEventListener('click', togglenav);
+    cgb.addEventListener('click', hidenav);
+    for (const li of guidesbar.querySelectorAll('li')) {
+        li.addEventListener('click', navclick);
     }
-    $('#content').click(hidenav);
-});
+    pagebody.addEventListener('click', hidenav);
+})();

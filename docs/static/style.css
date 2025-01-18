@@ -45,7 +45,6 @@ nav#titlebar h1 a {
     text-decoration: none;
 }
 nav#guidesbar {
-    display: none;
     z-index: 999;
     position: absolute;
     top: 65px;
@@ -54,6 +53,11 @@ nav#guidesbar {
     width: 100%;
     border-bottom: 1px solid rgb(0 0 0 / 5%);
     box-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 50%);
+    transform-origin: top;
+    transition: transform 200ms ease-in-out;
+}
+nav#guidesbar.closed {
+    transform: scaleY(0%);
 }
 .nav-top {
     display: flex;
