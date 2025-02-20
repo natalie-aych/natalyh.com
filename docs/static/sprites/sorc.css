@@ -61,6 +61,9 @@
 .sprite-innervate {
     background-image: url('sorc/innervate.png');
 }
+.sprite-jolt {
+    background-image: url('sorc/jolt.png');
+}
 .sprite-lightning-bolt {
     background-image: url('sorc/lightning-bolt.png');
 }
@@ -78,6 +81,9 @@
 }
 .sprite-polarity-shift {
     background-image: url('sorc/polarity-shift.png');
+}
+.sprite-rally {
+    background-image: url('sorc/rally.png');
 }
 .sprite-recklessness {
     background-image: url('sorc/recklessness.png');
