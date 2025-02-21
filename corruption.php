@@ -658,8 +658,8 @@ require('include/navbar.php');
                     spec.</p>
                 <h3>Controlling Enemy Healers</h3>
                 <p>As a healer, you are effectively engaged in a survival race against the enemy
-                    healer, however, running is not the only way to pull ahead in this race. You
-                    also have the opportunity to shoot the enemy healer in the foot by interrupting
+                    healer, and running is not the only way to pull ahead in this race. You also
+                    have the opportunity to shoot the enemy healer in the foot by interrupting
                     their casts with <span class="sprite sprite-jolt">Jolt</span>. The easiest way
                     to do this is with <em>Focus Target</em>, an in-game ability which will enable
                     you to see all the enemy healer&apos;s casts and interrupt them without even
@@ -668,14 +668,14 @@ require('include/navbar.php');
                     <em>Settings &gt; Controls &gt; Enable Focus Target</em>.
                     Once enabled, you can set keybinds for <em>Set Focus Target</em> (defaults to
                     <em>Alt+F</em>) and <em>Focus Target Modifier</em> (defaults to <em>F</em>).
-                    You&apos;ll want to target the enemy healer and use <em>Set Focus Target</em>,
-                    then when you see their casts appear on the screen, hold down your
-                    <em>Focus Target Modifier</em> key and use
+                    At the beginning of a round, you&apos;ll want to target the enemy healer and use
+                    <em>Set Focus Target</em>. Then, when you see their casts appear on your screen,
+                    hold down your <em>Focus Target Modifier</em> key and use
                     <span class="sprite sprite-jolt">Jolt</span>.</p>
                 <p>You can also interrupt the enemy healer&apos;s casts by stunning them with
                     <span class="sprite sprite-electrocute">Electrocute</span>, but first ensure that
-                    they are not whitebarred (a white bar will appear under their character name and
-                    a white ring will show up around their character portrait). Against sorc healers,
+                    they are not whitebarred (a white bar will appear under their character name,
+                    indicating that they are currently immune to being stunned). Against sorc healers,
                     the ideal time to do this is when they pop
                     <span class="sprite sprite-polarity-shift">Polarity Shift</span>,
                     which you can tell because you&apos;ll see the casts that appear on your
@@ -684,59 +684,63 @@ require('include/navbar.php');
                     target modifier and <span class="sprite sprite-jolt">Jolt</span> is grayed out.
                     Against operative healers you can stun any time, but make sure your team has a
                     follow-up stun ready. Operative healers are virtually unaffected by short stun
-                    windows, but long ones threaten to let their kolto probes drop which is a major
+                    windows, but long ones threaten to let their kolto probes drop, which is a major
                     HPS loss.</p>
                 <p>Some healers get carried away and start interrupting using
                     <span class="sprite sprite-overload">Overload</span>.
                     I do not recommend this approach for a number of reasons, but suffice to say
                     that it is simply not worth it. You are wasting one of limited GCDs in which
-                    you can heal your team, you are giving the enemy healer resolve for free,
-                    which limits your team&apos;s ability to control them, and you are wasting your
-                    knockback, which could be better utilized for your own survival or to separate
-                    the enemy tank from your team&apos;s target.</p>
+                    you can heal your team; you are giving the enemy healer resolve for free,
+                    limiting your team&apos;s ability to control them; you are wasting your knockback,
+                    which could be better utilized for your own survival or to separate the enemy tank
+                    from your team&apos;s target; and you are ruining your own positioning, exposing
+                    yourself to a lot of unnecessary damage for the sake of interrupting a single
+                    cast.</p>
                 <h3>Hardcasting Revivification</h3>
                 <p>Hardcasting <span class="sprite sprite-revivification">Revivification</span>
                     is easier on your force than instant-casting it with
-                    <span class="sprite sprite-resurgence">Resurgence</span>, which in turn is an
-                    HPS gain. However, getting it interrupted is an HPS loss. So, if you want to try
+                    <span class="sprite sprite-resurgence">Resurgence</span>, resulting in an HPS
+                    gain. However, getting it interrupted is an HPS loss. So, if you want to try
                     and milk the extra HPS from this, it&apos;s important to ensure the enemy team
                     is not able to interrupt you.</p>
                 <h4>Kick Baiting</h4>
-                <p>If the enemy healer/ranged DPS are trying to interrupt you, the best way to thwart
-                    their efforts is with something called <em>kick baiting</em>. The premise is,
-                    immediately before you cast something that you do care about
+                <p>When enemies try to interrupt you, the best way to thwart their efforts is with
+                    something called <em>kick baiting</em>. The premise is, immediately before you
+                    cast something that you do care about
                     (<span class="sprite sprite-revivification">Revivification</span>),
                     attempt to cast something that you don&apos;t care about
                     (<span class="sprite sprite-dark-infusion">Dark Infusion</span>)
-                    so that anybody that&apos;s in the habit of interrupting you has their interrupt on
+                    so that anyone in the habit of interrupting you has just put their interrupt on
                     a long cooldown while you cast what you care about. The ideal timing for this is
                     to bait with <span class="sprite sprite-dark-infusion">Dark Infusion</span> when
                     <span class="sprite sprite-revivification">Revivification</span> has about 1 GCD
-                    left on its cooldown, so as not to delay your reviv.</p>
+                    left on its cooldown, so as not to delay your AOE healing if the
+                    <span class="sprite sprite-dark-infusion">Dark Infusion</span> actually goes off.</p>
                 <h4>Abusing Swaps</h4>
-                <p>If the enemy healer/ranged DPS are not interrupting you, it is easy to abuse the
-                    short attention span of melee DPS to get hardcasts off. You&apos;ll want to time
+                <p>If the enemy team does not have a healer and/or ranged DPS interrupting you, it is
+                    easy to abuse the short attention span of melee DPS to get hardcasts off by timing
                     your <span class="sprite sprite-revivification">Revivification</span>. Very simply,
                     if the enemy team has been targeting you for a couple seconds and is about to swap
-                    on your teammate, hardcast your reviv. If they have been targeting your teammate
-                    for a couple seconds and are about to swap on you, instant cast it.</p>
+                    on your teammate, hardcast reviv. If they have been targeting your teammate for a
+                    couple seconds and are about to swap on you, instant cast it.</p>
                 <h4>Positioning to Hardcast</h4>
-                <p>If the enemy healer/ranged DPS <em>want</em> to interrupt you, it&apos;s fairly
-                    easy to deny them the opportunity to do so just by standing where they cannot
-                    see you, but where you can still see your team. Generally this means standing
-                    on the other side of a small LoS object from them, and peeking out just enough to
-                    see where your team is playing. AOE abilities are pretty generous about being used
-                    around walls, so you can even dip into cover when you cast
-                    <span class="sprite sprite-revivification">Revivification</span>
-                    and
-                    <span class="sprite sprite-innervate">Innervate</span>
-                    and pop back out when you use everything else. This is the ideal positioning for
-                    when you are freecasting.</p>
+                <p>When the enemy team&apos;s healer and/or ranged DPS <em>try</em> to interrupt you,
+                    it&apos;s also fairly easy to deny them the opportunity by standing where they
+                    cannot see you. The tricky part of this is finding an angle where you can still see
+                    your team. Generally this means rotating around a small LoS object, occasionally
+                    peeking out to see where your team is playing. AOE abilities are pretty generous
+                    about being used around walls, so you can even dip into cover when you cast
+                    <span class="sprite sprite-revivification">Revivification</span>,
+                    or begin channeling
+                    <span class="sprite sprite-innervate">Innervate</span> on yourself in the open,
+                    then complete the rest of the cast while walking behind cover. This is the ideal
+                    way to move while freecasting, as you&apos;ll delay the enemy team&apos;s attempts
+                    to mezz or stun you out as well.</p>
                 <h4>Bubble Stun as a Cast Window</h4>
                 <p>If the enemy team is stacked, you can stand in the middle of them and use the 2
                     second stun from <span class="sprite sprite-static-barrier">Static Barrier</span>
                     to protect your hardcast, provided you start casting immediately after (or better,
-                    slightly before) it goes off.</p>
+                    slightly before) the stun goes off.</p>
                 <h3>Clicking off Revivification</h3>
                 <p>This is kind of a gimmick, but if you really want to maximize your HPS it&apos;s
                     worth noting that clicking off the HoT from
