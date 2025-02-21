@@ -549,13 +549,13 @@ require('include/navbar.php');
                     to repositioning yourself to safety.
                 </p>
                 <h3 id="kiting">Kiting Tricks</h3>
-                <p>As a healer, the default hard tunnel scenario is remarkably easy to deal
-                    with: Nascar laps around an object, heal yourself, use major DCDs when stunned.
+                <p>As a healer, the default hard tunnel scenario is relatively easy to deal with:
+                    do Nascar laps around an object, heal yourself, and use major DCDs when stunned.
                     Therefore, this section will deal with some of the more effective strategies
                     players will try and employ to counter this, and how to counter them back.</p>
                 <h4>Sitting and Swaps</h4>
                 <p>Much more annoying to you than direct focus will be having 1-2 players
-                    on you, stunning/interrupting while the rest of your team is still
+                    on you, stunning/interrupting, while the rest of your team is still
                     dying and needs your help. The way to deal with this is as follows:</p>
                 <ol>
                     <li>Use the mobile cleave rotation.</li>
@@ -573,31 +573,31 @@ require('include/navbar.php');
                         or just good old fashion jukes.</li>
                     <li>Return to the same side as your team and AOE heal them with
                         <span class="sprite sprite-revivification">Revivification</span>,
-                        <span class="sprite sprite-revivification">Resurgence</span>,
+                        <span class="sprite sprite-resurgence">Resurgence</span>,
                         proc&apos;d <span class="sprite sprite-dark-heal">Dark Heal</span>,
                         <span class="sprite sprite-static-barrier">Static Barrier</span>, or
                         the first tick of a self-targeted
                         <span class="sprite sprite-innervate">Innervate</span> (this will spread your
-                        <span class="sprite sprite-revivification">Resurgence</span> to the team).
+                        <span class="sprite sprite-resurgence">Resurgence</span> to the team).
                         This is also the window where you can manage force or, if you&apos;ve
                         successfully marooned your attackers, attempt a hardcast.</li>
                 </ol>
-                <p>If you&apos;re a swap target, you should employ this strategy as well just to
-                    be unavailable to be swapped on as much as physically possible. You should only
-                    be visible to your attackers when you&apos;re healing a teammate that can&apos;t
-                    be reached from any other angle.</p>
+                <p>If you&apos;re a swap target you should employ this strategy as well, if for no
+                    other reason than to be available to be swapped on as little as humanly possible.
+                    You should only be visible to your attackers when you&apos;re healing a teammate
+                    that can&apos;t be reached from any other angle.</p>
                 <h3>Phase Walk Usage</h3>
                 <p>Healing is much more forgiving than DPS specs regarding
                     <span class="sprite sprite-phase-walk">Phase Walk</span>
-                    placement, but it is still your bread and butter for escaping stunlocks, and
-                    because of this, like DPS, it&apos; important to have it set before you engage in
-                    combat. We cannot afford to sit in spawn or engage, because we would be denying
-                    ourselves our best defensive cooldown. As a healer, you want your phase close to
-                    where your team is fighting, so you can return quickly if DPS swap to your
-                    teammates, but still blocked off from where enemies are fighting by a
-                    line-of-sight object so you can sit out a stun and maybe cast a heal or two on
-                    yourself before re-engaging. Nearly any object will do, I leave this to your
-                    discretion.</p>
+                    placement, but this is still your bread and butter for escaping stunlocks.
+                    Because of this, like on DPS, it&apos;s important to have it set before you engage
+                    in combat. You can&apos;t afford to sit in spawn or engage late, lest you risk being
+                    forced to use your cooldowns out of order, significantly gimping your survival.</p>
+                <p>As a healer, you want your phase walk close to where your team is playing, so you
+                    can return quickly if DPS swap to your teammates, but still LoS'd off from where
+                    the fight is happening by an object, so you can sit out a stun and maybe cast a heal
+                    or two on yourself before re-engaging. Nearly any object will do, I leave this to
+                    your discretion.</p>
                 <h3>Using DR</h3>
                 <p>As corruption, you get
                     <span class="sprite sprite-cloud-mind">Cloud Mind</span> essentially for free in
@@ -621,27 +621,28 @@ require('include/navbar.php');
                     safe location and heal through the dot damage.</p>
                 <p>As a healer, a net alone is not generally enough to be threatening, but
                     it does open up the possibility of ending up in a much more dangerous
-                    situation. If you are stunned on top of net, the only things you can do
-                    are break with
-                    <span class="sprite sprite-unbreakable-will">Unbreakable Will</span>
-                    and pray. Likewise, if you allow yourself to hit low health and then get
-                    netted, the slow applied will reduce your mobility to a point where kiting
+                    situation. If you are stunned on top of net, for example, your only two
+                    options are: (1) break the net with
+                    <span class="sprite sprite-unbreakable-will">Unbreakable Will</span>, or
+                    (2) go AFK and pray. Likewise, if you allow yourself to hit low health and then
+                    get netted, the slow applied will reduce your mobility to a point where kiting
                     becomes difficult and you can easily be bursted to death by a well-positioned
                     opponent. For this reason, when you are taking damage and mercs are present,
                     it&apos;s best to simply save breaker and avoid ending up in one of these
                     nightmare scenarios. Your other two major DCDs are generally enough to dissuade
-                    mercs, who have very poor mobility and control themselves, from tunneling you.</p>
+                    mercs, who have very poor mobility and control themselves, from chasing you.</p>
                 <p>If you are netted without either low health or a stun on top of it, I would not
                     recommend breaking the net. This is particularly important when multiple nets are
                     present on the enemy team&mdash;try not to break until you are both stunned and
-                    netted on top of it, and if that never happens and you survive all the nets then
-                    you are then free to use your breaker as you wish. An unstunned net is a
-                    particularly good opportunity to use
-                    <span class="sprite sprite-cloud-mind">Cloud Mind</span>
-                    or <strong>Warzone Adrenal</strong>, as well as stunning or knocking back any
-                    enemies who are easy to reach. Having done all these things and starting from a
-                    strong health percentage, you can very likely heal through 9 seconds worth of
-                    damage, though it may cost you your <strong>Warzone Medpac</strong> as well.</p>
+                    netted on top of it. If you survive all the nets without that happening, you
+                    are then free to use your breaker as you please. An unstunned net is a particularly
+                    good opportunity to use <span class="sprite sprite-cloud-mind">Cloud Mind</span>
+                    or <strong>Warzone Adrenal</strong> if you have either one available, as well as
+                    to stun or knockback any enemies within reach. Having done all these things and
+                    starting from a strong health percentage, it will be very difficult to kill you
+                    within 9 seconds, however, you may still need to take cover behind LoS to reduce
+                    damage further. You may also need to spend your <strong>Warzone Medpac</strong>
+                    to buy time if you happen to be caught out of position.</p>
                 <h3>Demo</h3>
                 <p>Here is a video demonstrating how to heal under heavy pressure.</p>
                 <div class="multiplex">
