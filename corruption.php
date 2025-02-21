@@ -9,8 +9,8 @@
         <meta property="og:title" content="SWTOR 7.6 Corruption PvP Guide" />
         <meta property="og:type" content="article" />
         <meta property="article:author" content="https://natalyh.com/">
-        <meta property="article:published_time" content="2022-12-27T16:49:00.000-08:00">
-        <meta property="article:modified_time" content="2022-12-27T16:49:00.000-08:00">
+        <meta property="article:published_time" content="2025-02-20T22:12:00.000-05:00">
+        <meta property="article:modified_time" content="2025-02-20T22:12:00.000-05:00">
         <meta property="article:section" content="Gaming">
         <meta property="og:image" content="https://natalyh.com/static/banner-corruption.webp" />
         <meta property="og:image:width" content="460" />
