@@ -10,6 +10,7 @@
                     <ul class="nav-bottom">
                         <li><a href="/lightning">Lightning</a></li>
                         <li><a href="/madness">Madness</a></li>
+                        <li><a href="/corruption">Corruption</a></li>
                     </ul>
                 </div>
             </nav>
