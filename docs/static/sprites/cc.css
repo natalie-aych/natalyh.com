@@ -1,0 +1,51 @@
+.sprite-carbonize {
+    background-image: url('pt/carbonize.png');
+}
+.sprite-concussion-missile {
+    background-image: url('merc/concussion-missile.png');
+}
+.sprite-crippling-slice {
+    background-image: url('op/crippling-slice.png');
+}
+.sprite-debilitate {
+    background-image: url('op/debilitate.png');
+}
+.sprite-electrocute {
+    background-image: url('sorc/electrocute.png');
+}
+.sprite-electro-dart {
+    background-image: url('merc/electro-dart.png');
+}
+.sprite-flashbang {
+    background-image: url('op/flashbang.png');
+}
+.sprite-force-choke {
+    background-image: url('jugg/force-choke.png');
+}
+.sprite-intimidating-roar {
+    background-image: url('jugg/intimidating-roar.png');
+}
+.sprite-low-slash {
+    background-image: url('sin/low-slash.png');
+}
+.sprite-maim {
+    background-image: url('sniper/maim.png');
+}
+.sprite-maul-spike {
+    background-image: url('sin/maul-spike.png');
+}
+.sprite-mind-trap {
+    background-image: url('sin/mind-trap.png');
+}
+.sprite-seismic-grenade {
+    background-image: url('generic/seismic-grenade.png');
+}
+.sprite-sleep-dart {
+    background-image: url('op/sleep-dart.png');
+}
+.sprite-spike {
+    background-image: url('sin/spike.png');
+}
+.sprite-whirlwind {
+    background-image: url('sin/whirlwind.png');
+}

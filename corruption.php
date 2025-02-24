@@ -23,6 +23,7 @@
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
         <link rel="stylesheet" type="text/css" href="static/style.css" />
         <link rel="stylesheet" type="text/css" href="static/sprites/sorc.css" />
+        <link rel="stylesheet" type="text/css" href="static/sprites/cc.css" />
         <script type="text/javascript" src="static/dynamics.js" defer></script>
     </head>
     <body>
@@ -486,6 +487,44 @@ require('include/navbar.php');
                     for access to more speed boosts and movement buffs, but nothing
                     in the game should be able to outrun you once you are spec&apos;d
                     into it.</p>
+                <h3 id="cleansing">Cleansing</h3>
+                <p>You&apos;re likely familiar from reading the ability description that
+                    <span class="sprite sprite-expunge">Expunge</span> will cleanse up to two hostile
+                    removable effects from an ally (or yourself). What you may not be aware of is the
+                    fact that those effects can include crowd control such as hardstuns, mezzes, roots,
+                    and slows. Cleansing these effects in time can save your teammates from otherwise
+                    certain death, and should be prioritized over regular healing.</p>
+                <p>At baseline, sorcerers can cleanse all mental and force effects, including the
+                    hardstuns and mezzes of all force classes
+                    (<span class="sprite sprite-electrocute">Electrocute</span>,
+                    <span class="sprite sprite-force-choke">Force Choke</span>,
+                    <span class="sprite sprite-intimidating-roar">Intimidating Roar</span>,
+                    <span class="sprite sprite-spike">Spike</span> /
+                    <span class="sprite sprite-maul-spike">Maul Spike</span>, and
+                    <span class="sprite sprite-whirlwind">Whirlwind</span>), as well as all
+                    saps (when stealthers sleep your teammates from stealth with
+                    <span class="sprite sprite-mind-trap">Mind Trap</span> or
+                    <span class="sprite sprite-sleep-dart">Sleep Dart</span>), and mercs&apos;
+                    <span class="sprite sprite-concussion-missile">Concussion Missile</span>. Healers
+                    additionally gain the ability to cleanse physical effects, which include fun
+                    things like <span class="sprite sprite-low-slash">Low Slash</span>,
+                    <span class="sprite sprite-crippling-slice">Crippling Slice</span>,
+                    <span class="sprite sprite-debilitate">Debilitate</span>, and
+                    <span class="sprite sprite-maim">Maim</span>.
+                    Anyone with a cleanse can cleanse
+                    <span class="sprite sprite-seismic-grenade">Seismic Grenade</span>.</p>
+                <p>Basically, as a sorc healer you can cleanse your teammates out of any cc other than
+                    <span class="sprite sprite-flashbang">Flashbang</span> and
+                    <span class="sprite sprite-carbonize">Carbonize</span>, and you should do so
+                    whenever possible, because this can rapidly alter the trajectory of a round.
+                    <span class="sprite sprite-expunge">Expunge</span> does have a cooldown, however,
+                    so occasionally you will have to make a choice about which of your teammates to
+                    cleanse. In general, if you have the option to cleanse another player that can in
+                    turn cleanse your other teammates (a sorcerer, mercenary, or operative with the
+                    necessary awareness to know this mechanic exists), you should do so. If you have a
+                    tank, you should prioritize them next. After that, it&apos;s up to you to make a
+                    judgement call about who is in the most immediate danger, or whose several seconds
+                    of additional gameplay would be the most beneficial to your team.</p>
             </section>
             <hr />
             <section id="defense">
