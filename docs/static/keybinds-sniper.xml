@@ -41,7 +41,7 @@
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="924732771188210354" Name="SelfTargetOverride">
-			<Key>560</Key>
+			<Key>0</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
@@ -706,7 +706,7 @@
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="12517366634739476824" Name="RightQuickslot8">
-			<Key>592</Key>
+			<Key>0</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
@@ -847,7 +847,7 @@
 		</Keybinding>
 		<Keybinding ID="15254334123974289321" Name="LeftQuickslot8">
 			<Key>593</Key>
-			<Key>0</Key>
+			<Key>592</Key>
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="15254339621532430376" Name="LeftQuickslot3">
@@ -962,7 +962,7 @@
 		</Keybinding>
 		<Keybinding ID="17769366484717963875" Name="BottomCenterQuickslot7">
 			<Key>441</Key>
-			<Key>0</Key>
+			<Key>656</Key>
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="17769367584229592086" Name="BottomCenterQuickslot4">
@@ -1001,7 +1001,7 @@
 			<Key>0</Key>
 		</Keybinding>
 		<Keybinding ID="18209521937484963623" Name="ShowCover">
-			<Key>0</Key>
+			<Key>560</Key>
 			<Key>0</Key>
 			<Key>0</Key>
 		</Keybinding>
